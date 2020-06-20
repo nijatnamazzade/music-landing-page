@@ -1,0 +1,186 @@
+.home-main-section {
+
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.home-main-section .img-wrapper {
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+.home-main-section .lady-image {
+  background-image: url(images/emp.png);
+  flex-grow: 1;
+  max-height: 70vh;
+  min-width: 30vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.home-main-section .call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem;
+  align-self: center;
+}
+
+@media (max-width: 900px) {
+  .home-main-section .img-wrapper {
+    display: none;
+  }
+
+  .home-main-section {
+    justify-content: center;
+  }
+}
+
+
+.home-page-circle-3 {
+  position: absolute;
+  top: 100px;
+  left: -9%;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+ background-color: blue;
+}
+
+
+
+.navbar-section {
+  margin-top: 3%;
+  background-color: #e7305b;
+  font-family: 'Source Sans pro', sans-serif;
+
+}
+button:focus {
+
+  outline:0;
+}
+.navbar-expand-lg {
+  margin: 0 5% 0 8%;
+}
+.slide-head {
+  display: none;
+}
+
+.navbar-brand{
+  font-size: 2.4rem !important;
+    font-weight: bold;
+  
+}
+.menu-item:hover {
+padding-left: 25px;
+  padding-right: 25px;
+  background-color: #6C63FF;
+  border-radius: 50px;
+}
+
+.main-link {
+padding-left: 25px;
+  padding-right: 25px;
+  background-color: #6C63FF;
+  border-radius: 50px;
+}
+.nav-link {
+  
+font-size: 1.7rem;
+font-weight: 600;
+
+
+}
+.nav-item {
+  margin-left: 20%;
+}
+.navbar-collapse {
+  margin-right: 16%;
+}
+
+
+.navbar-nav{
+  margin-right: 6%;
+}
+
+
+.slider-section {
+padding: 5vw 10vw 0 10vw;
+
+}
+
+.slider-section h3{
+
+margin-top: 5%;
+opacity: 0.9;
+line-height: 30px;
+  }
+
+.big-heading {
+  font-weight: bold;
+  margin-top: 7%;
+  color: #fff;
+}
+
+.small-heading {
+  color: #fff;
+}
+.slide-button {
+    border-radius: 45px;
+    text-align: center;
+    width: 180px;
+    font-size: 1.5rem;
+    color: #fff;
+  
+  }
+
+
+@media (max-width: 991px) {
+
+.slider-section .big-heading {
+text-align: center;
+}
+.slider-section .small-heading {
+text-align: center;
+}
+.slider-section .btn {
+  margin-top: 3%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.slider-section img {
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.navbar-brand {
+  font-size: 1.4rem !important;
+}
+
+.nav-link {
+
+font-size: 1.5rem;
+
+
+
+}
+
+.nav-item {
+  margin-top: 2%;
+}
+.navbar-nav {
+  margin-top: 6%;
+ 
+}
+
+}
